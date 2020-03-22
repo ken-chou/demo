@@ -1,4 +1,7 @@
 # Test Strategy
+
+apiKey value testing is currently being ommitted as API authentication should be ideally tested separately. All APIs should share authentication logic, testing in combination with query fields yields unnecessarily complex test result data.
+
 ## City Name
 ```
 https://api.openweathermap.org/data/2.5/weather?q={cityName}&appid={apiKey}
