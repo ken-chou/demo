@@ -20,3 +20,9 @@ pytest
 # Running tests on Travis-CI
 
 This repository comes pre-configured with a `.travis.yml` file.
+
+However, you will need to add the following Environment Variable(s) in the build settings.
+
+| Environment variable | Description |
+|---|---|
+| `OWM_API_KEY` | openeweathermaps API key, keep hidden |
