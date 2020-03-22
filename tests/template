@@ -1,0 +1,16 @@
+{
+    "apiUrl": <url with substitution strings in curly braces {}>,
+    "testVectors": [
+        {
+            "input": {
+                "key": "value"
+            },
+            "expected": {
+                "status_code": < (int) http return code>,
+                "text": {
+                    <body fields to compare>
+                }
+            }
+        }
+    ]
+}
